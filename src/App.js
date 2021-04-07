@@ -1,10 +1,11 @@
 import './App.css';
 import {BrowserRouter, Route} from "react-router-dom";
 import Home from "./component/home"
-import Admin from "./component/admin"
-import AdminTwo from "./component/admin-two";
-import Pet from "./component/pet";
-import User from "./component/user";
+import Admin from "./component/admin/admin";
+import PetList from "./component/admin/pet_list";
+import UserList from "./component/admin/user_list";
+import Login from "./component/use-login/login";
+import Register from "./component/use-login/register";
 
 function App() {
   return (
@@ -13,9 +14,10 @@ function App() {
       <BrowserRouter>
         <Route path="/" exact={true} component={Home}></Route>
         <Route path="/admin" exact={true} component={Admin}></Route>
-        <Route path="/admin-two" exact={true} component={AdminTwo}></Route>
-        <Route path="/pet" exact={true} component={Pet}></Route>
-        <Route path="/user" exact={true} component={User}></Route>
+        <Route path="/pets" exact={true} component={PetList}></Route>
+        <Route path="/users" exact={true} component={UserList}></Route>
+        <Route path="/login" exact={true} component={Login}></Route>
+        <Route path="/register" exact={true} component={Register}></Route>
       </BrowserRouter>
     </div>
   );
