@@ -30,9 +30,11 @@ const PetList =()=>{
                 <thead>
                     <tr>
                         <th>Name</th>
-                        <th>breed</th>
-                        <th>gender</th>
-                        <th>owner</th>
+                        <th>Breed</th>
+                        <th>Gender</th>
+                        <th>Age</th>
+                        <th>Status</th>
+                        <th>Owner</th>
                         <th></th>
                     </tr>
                     </thead>

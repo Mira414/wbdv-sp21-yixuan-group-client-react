@@ -35,6 +35,10 @@ const UserDetail = ()=>{
                     <td className="wm-table-label">Password</td>
                     <td className="wm-table-content">******</td>
                 </tr>
+                {/*<tr>*/}
+                {/*    <td className="wm-table-label">UserType</td>*/}
+                {/*    <td className="wm-table-content">{user.userType}</td>*/}
+                {/*</tr>*/}
                 <tr>
                     <td className="wm-table-label">Email</td>
                     <td className="wm-table-content">{user.email}</td>
@@ -43,7 +47,7 @@ const UserDetail = ()=>{
             </table>
             <br />
             <button type="submit" className="btn btn-primary wm-icon">Update</button>
-            <button type="submit" className="btn btn-primary wm-icon">Delete</button>
+            {/*<button type="submit" className="btn btn-primary wm-icon">Delete</button>*/}
         </div>
     </div>
 }

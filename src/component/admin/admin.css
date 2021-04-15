@@ -99,3 +99,13 @@
 .wm-auto-margin{
     margin: auto;
 }
+
+.wm-card{
+    /*height: 380px;*/
+    margin-bottom: 30px;
+    display: block;
+}
+
+.wm-botton-margin{
+    margin-bottom: 10px;
+}
