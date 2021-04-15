@@ -18,11 +18,11 @@ const PetList =()=>{
                 <Link className="nav-link" to="/admin/users">User</Link>
                 <Link className="nav-link active" to="/admin/pets">Pet</Link>
             </div>
-            <div className="wm-floating-child">
-                <input placeholder="search pets"/>
-                <i className="fas fa-search wm-icon"></i>
-                <i className="fas fa-plus wm-icon"></i>
-            </div>
+            {/*<div className="wm-floating-child">*/}
+            {/*    <input placeholder="search pets"/>*/}
+            {/*    <i className="fas fa-search wm-icon"></i>*/}
+            {/*    <i className="fas fa-plus wm-icon"></i>*/}
+            {/*</div>*/}
         </div>
 
         <div className="wm-auto-margin">
